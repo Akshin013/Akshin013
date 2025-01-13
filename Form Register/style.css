@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    width: 510px;
+    justify-content: center;
+    border: 1px solid teal;
+}
+
+.vse{
+
+  
+}
+
+.div *{
+    text-align: center;
+}
+
+::placeholder{
+    color: teal;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: 0 auto;
+    gap: 10px;
+    padding: 10px;
+    border: 1px solid teal;
+}
+
+input{
+    width: 100%;
+    border: 1px solid green;
+    border-radius: 20px;
+    padding: 2px 5px;
+}
+
+.fullname{
+    display: flex;
+    gap: 5px;
+}
+
+.flex{
+    display: flex;
+    gap: 5px;
+}
+
+
+.check{
+    padding: 1px;
+    margin-left: -210px;
+}
+
+span{
+    margin-left: -190px;
+}

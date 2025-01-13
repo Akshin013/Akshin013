@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+'https://github.com/Akshin013/Akshin013repo.git'
+https://github.com/Akshin013/Akshin013
+
+table{
+    width: 500px;
+
+    border: 1px solid teal;
+    margin: 100px;
+    border-collapse: separate;
+    text-align: center;
+}
+
+table tr,
+table th,
+table td {
+
+    border: 1px solid red;
+}
+
+caption{
+    color: teal;
+    border: 1px solid red;
+}
+
