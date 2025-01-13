@@ -1,0 +1,109 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+.loading-box{
+  margin-top: 300px;
+  margin-left: 35%;
+  background-color: gray;
+  width: 30%;
+  height: 190px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#krug{
+  width: 30px;
+  height: 30px;
+  /* animation-name: move;
+  animation-duration: 1s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite; */
+}
+
+.krug-div{
+  min-width:  25px;
+  min-height: 25px;
+  max-width:  25px;
+  max-height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+@keyframes move{
+  from{
+    width:  25px;
+    height: 25px;
+  }
+
+  to{
+    width:  6px;
+    height: 6px;
+
+  }
+}
+
+.krug1{
+  animation-name: move;
+  animation-duration: 0.9s;
+  animation-delay: 1s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
+
+.krug2{
+  animation-name: move;
+  animation-duration: 0.9s;
+  animation-delay: 1.3s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+ 
+
+.krug3{
+  animation-name: move;
+  animation-duration: 0.9s;
+  animation-delay: 1.4s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+ 
+
+
+.krug4{
+  animation-name: move;
+  animation-duration: 0.9s;
+  animation-delay: 1.6s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+ 
+
+
+.krug5{
+  animation-name: move;
+  animation-duration: 0.9s;
+  animation-delay: 2s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+ 
+
+
+.krug6{
+  animation-name: move;
+  animation-duration: 0.9s;
+  animation-delay: 2.2s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+ 
+ 
