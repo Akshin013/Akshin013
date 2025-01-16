@@ -1,0 +1,57 @@
+@import "_reset";
+
+.task{
+
+    header{
+      .nav{
+        text-align: center;
+
+        a{
+  
+        }
+        button{
+          background-color: yellow;
+        }
+      
+      }
+    }
+  
+    .top{
+      background-color: teal;
+      text-align: center;
+      h1{
+        color: #fff;
+      }
+    }
+  
+    .main{
+      .img{
+        width: 600px;
+      }
+
+      p{
+        text-align: center;
+      }
+
+      a{
+      }
+  
+      .about{
+        background-color: yellow;
+        .h2{
+          text-align: center;
+        }
+      }
+        p{
+        }
+  
+        a{
+        }
+      
+      .footer{
+        background-color: teal;
+        margin-top: 20px;
+      }
+      
+    }
+  }
