@@ -9,11 +9,19 @@
 //console.log(message);
 
 
-// Task 2 ////////
+// Task 2 ///////
 
-//let a = prompt("1-ci eded")
-//let b = prompt("2-ci eded")
-//
+
+let a = prompt("Esesi yazin")
+// let b = prompt("2-ci eded")
+
+if(a%2 == 0){
+    console.log('cüt ədəd')
+} else{
+    console.log('ədəd təkdir')
+}
+
+
 //let message = a == b ? "cut eded" 
 //: "cut deil"
 //console.log(message);

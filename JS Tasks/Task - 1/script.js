@@ -103,6 +103,8 @@
 //console.log('Salam,' + ' ' + ad + ' ' + '!');
 
 
+
+
 // Task 9 
 
 //let num1 = prompt("Num 1");
@@ -124,6 +126,8 @@
 //
 //let operation4 = (num1 / num2);
 //console.log(operation4);
+
+
 
 //Task 10 ////////////////////////////////////////////////////////
 
