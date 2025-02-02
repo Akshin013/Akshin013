@@ -12,8 +12,47 @@
 
 //let a = +prompt("Age enter");
 //let b =+ prompt("AZN");
-//
 //let c;
+//// SWITCH CASE 
+//switch (true) {
+//    case (a < 18 && a > 0):
+//        b = b / 100;
+//        b = b * 90;
+//        console.log(b + " azn");
+//        break;
+//    case (a >= 18 && a < 30):
+//        b = b / 100;
+//        b = b * 85;
+//        console.log(b);
+//        break;
+//    case (a >= 30 && a < 60):
+//        b = b / 100;
+//        b = b * 80;
+//        console.log(b);
+//        break;
+//    case (a >= 60):
+//        b = b / 100;
+//        b = b * 70;
+//        console.log(b);
+//        break;
+//    default:
+//        console.log("Ошибка");
+//}
+//
+//switch (true) {
+//    case (b > 100):
+//        b = b / 100;
+//        b = b * 95;
+//        console.log(b);
+//        break;
+//    default:
+//        // ничего не нужно делать, если b <= 100
+//        break;
+//}
+//
+//
+//IF ELSE 
+
 //if (a < 18 && a >0){
 //    b = b / 100;
 //    b = b * 90;
@@ -59,10 +98,37 @@
 //let e = "gizil";
 //
 //
+//SWITCH CASE 
+//switch (true) {
+//    case (b === c):
+//        console.log("Aylig 20 AZN");
+//        break;
+//
+//    case (b === d && a <= 3):
+//        console.log("15 AZN");
+//        break;
+//
+//    case (b === d && a > 3):
+//        console.log("15 AZN");
+//        break;
+//
+//    case (b === e && a <= 5):
+//        console.log("10 AZN");
+//        break;
+//
+//    case (b === e && a > 5):
+//        console.log("5 AZN");
+//        break;
+//
+//    default:
+//        console.log("Error");
+//        break;
+//}
+//IF ELSE 
 //if(b === c){
 //    console.log("Aylig 20 AZN");
 //
-}else if(b === d && a <= 3){
+//}else if(b === d && a <= 3){
 //    console.log("15 AZN");
 
 //}else if(b === d && a > 3){
@@ -78,26 +144,26 @@
 
 // SWITCH CASE 
 
-let a = +prompt("age");
-let b = prompt("Uzluk tipi");
-           
-let c = "standart" ;
-let d = "gumus";
-let e = "gizil";
-
-switch (b) {
-    case d:
-        console.log("15 AZN");
-        break;
-
-    default:
-        break;
-}
-
-switch (a){
-    case (> 3):
-        console.log("s")
-}
+//let a = +prompt("age");
+//let b = prompt("Uzluk tipi");
+//           
+//let c = "standart" ;
+//let d = "gumus";
+//let e = "gizil";
+//
+//switch (b) {
+//    case d:
+//        console.log("15 AZN");
+//        break;
+//
+//    default:
+//        break;
+//}
+//
+//switch (a){
+//    case (> 3):
+//        console.log("s")
+//}
 
 
 
@@ -112,6 +178,7 @@ switch (a){
 
 //let a = +prompt("Ededi yazin");
 //
+//IF ELSE 
 //if(a >= 10 && a <= 20){
 //    console.log("Ədəd 10 və 20 arasında.");
 //}else if(a >= 21 && a <= 30){
@@ -121,7 +188,20 @@ switch (a){
 //}else {
 //    console.log("Ədəd müəyyən aralıqdan kənardır.");
 //}
-
-
+//// SWITCH CASE
+//switch (true) {
+//    case (a >= 10 && a <= 20):
+//        console.log("Ədəd 10 və 20 arasında.");
+//        break;
+//    case (a >= 21 && a <= 30):
+//        console.log("Ədəd 21 və 30 arasında.");
+//        break;
+//    case (a >= 31 && a <= 50):
+//        console.log("Ədəd 31 və 50 arasında.");
+//        break;
+//    default:
+//        console.log("Ədəd müəyyən aralıqdan kənardır.");
+//        break;
+//}
 
 
