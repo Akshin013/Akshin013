@@ -50,19 +50,19 @@
 //### **Rubl və dollarla hesab qəbul edən və bütün hesablardakı məbləğin cəmin rublla göstərən funksiya yazın.
 //Tutaq ki, müştərinin rubl hesabında 1200 rubl, dollar hesabında isə 20 dollar var.Bir dollar üçün məzənnə 75 rubl təşkil edir. Bu halda, funksiya belə mesaj göstərməlidir: Bütün depozitlər üzrə məbləğ: 2700 rubl.**
 
-function Valuta(a, b) {
-        a = +prompt("RUB");
-        b = +prompt("USD");
-
-        b = b * 75;
-        let c = +(a + b); 
-        console.log(c + " " + "RUB");
-
-
-
-}
-Valuta()
-
+//function Valuta(a, b) {
+//        a = +prompt("RUB");
+//        b = +prompt("USD");
+//
+//        b = b * 75;
+//        let c = +(a + b); 
+//        console.log(c + " " + "RUB");
+//
+//
+//
+//}
+//Valuta()
+//
 //## Task 5:
 //### **Parametr kimi iki ədəd qəbul edən və onlardan ən kiçiyini qaytaran min() adında funksiyası tərtib edin.**
 
