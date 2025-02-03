@@ -13,11 +13,11 @@
 //Sonu 0 ilə bitən bütün üçrəqəmli ədədləri konsola çıxaran proqram yazın.
 
 
-let a = +prompt("Eded");
-
-for(let i = 0; i < 10; ) {
-    console.log(a);
-}
+//let a = +prompt("Eded");
+//
+//for(let i = 0; i < 10; ) {
+//    console.log(a);
+//}
 
 
 
@@ -30,9 +30,35 @@ for(let i = 0; i < 10; ) {
 //Proqram istifadəçidən ədəd daxil etməyi xahiş edir. Bundan sonra proqram konsolda bu rəqəmin bölünəni olan bütün üçrəqəmli ədədlərin cəmini çıxarır.
 //
 //Task 7
-//
 //For dövrün köməyi ilə 10-a qədər bütün ədədlərin hasilin tapan proqram tərtib edin. Alınan dəyəri konsola çıxarın.
-//
+
+let a = +prompt("a");
+
+for(let i = 100; i >= 100; i++){
+    if(i % a){
+        
+        console.log(i);        
+    }
+}
+
+
+
+
+
+
+
+
 //Task 8
-//
 //1-dən 100-ə qədər olan tək ədədləri toplayın və nəticəni göstərin.
+
+//let sum = 0;
+//
+//for(let i = 0; i <= 100;  i++){
+//    if(i % 2 !== 0){
+//        
+//        sum += i
+//    }
+//
+//}
+
+//console.log(sum)
