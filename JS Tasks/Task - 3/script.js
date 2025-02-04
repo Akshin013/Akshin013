@@ -5,22 +5,21 @@
 //if(a >= 0 & a<= 100)    
 //    if(a >= 90){
 //        console.log("A")
-//    } if(a >= 80 & a <= 89){
+//    } else if(a >= 80 & a <= 89){
 //        console.log("B");
-//    } if(a >= 70 & a <= 79){
+//    } else if(a >= 70 & a <= 79){
 //        console.log("C");
-//    } if(a >= 60 & a <= 69){
+//    } else if(a >= 60 & a <= 69){
 //        console.log("D");
-//    } if(a <= 60 ){
+//    } else if(a <= 60 ){
 //        console.log("F");
-//    } if(a > 85){
+//    } else if(a > 85){
 //        console.log("Ela")
-//    } if(a >= 50 & a < 85){
+//    } else if(a >= 50 & a < 85){
 //        console.log("Yaxsi")
-//    } if(a >50){
+//    } else if(a >50){
 //        console.log("Kesr")
-//    }
-//else{
+//    }else{
 //    console.log("Error")
 //}
 //
@@ -71,7 +70,7 @@
 //
 //if(yash < 12 & yash > 0){
 //    console.log(a)
-//} if(yash >= 12 & yash < 18){
+//} if(yash >= 12 & yash <= 18){
 //    console.log(b);
 //} if(yash > 18){
 //    console.log(c);
