@@ -187,7 +187,7 @@
 //    console.log("Ədəd 31 və 50 arasında.");
 //}else {
 //    console.log("Ədəd müəyyən aralıqdan kənardır.");
-//}
+//}i <= 900
 //// SWITCH CASE
 //switch (true) {
 //    case (a >= 10 && a <= 20):
