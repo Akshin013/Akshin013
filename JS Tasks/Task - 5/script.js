@@ -65,7 +65,7 @@
 //    b = b / 100;
 //    b = b * 80;
 //    console.log(b);
-//}else if (a >= 60){
+//}else if (a >= 60 && a<= 100){
 //    b = b / 100;
 //    b = b * 70;
 //    console.log(b);
