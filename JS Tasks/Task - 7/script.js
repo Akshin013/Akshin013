@@ -63,16 +63,17 @@
 
 // Task-06
 // _propertyTaker()_ adinda funksiya yaradin. Argument kimi obyekt (obj) ve string (proprtyName) alsin. Hemin obyektin verdiyim propertyni cixarsin. Mes:
-// _propertyTaker({ continent: 'Asia', country: 'Japan'}, 'continent') // 'Asia'_
-// _propertyTaker({ country: 'Sweden', continent: 'Europe'}, 'country') // 'Sweden'_
-// _propertyTaker({name:'ali', age:12}, 'name') // 'ali'_
+//  _propertyTaker({ continent: 'Asia', country: 'Japan'}, 'continent') // 'Asia'_
+//  _propertyTaker({ country: 'Sweden', continent: 'Europe'}, 'country') // 'Sweden'_
+//  _propertyTaker({name:'ali', age:12}, 'name') // 'ali'_
 
 
 
-
-function funksiya(params) {
+// function propertyTaker(obj, str){
+//     console.log(obj{str});
     
-}
+// }
+
 
 
 

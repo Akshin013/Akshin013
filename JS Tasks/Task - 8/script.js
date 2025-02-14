@@ -47,8 +47,10 @@
 //     creditLimit: 10,
 //     balans: 8,
 //     precentOfMinPayment: 5,
+
 //     getBalance(balans = this.balans) {
 //       // let balans = balans;
+
 //       if (balans >= 0) {
 //         console.log("Balansiniz:" + " " + balans);
 //       } else if (balans < 0) {
@@ -57,6 +59,7 @@
 //         console.log("Error");
 //       }
 //     },
+
 //     getMinPaymant(balans = this.balans) {
 //       if(balans >= 0 ){
 //           console.log("Minimum odenishiniz" + " " + balans);
@@ -66,9 +69,10 @@
 //         console.log("Error");
 //     }
 //     },
-//     withdraw(amout = this.balans){{
+
+//     withdraw(amount, balans = this.balans){{
 //         if (this.balans > 0 ) {
-//             let a = this.balans - amout;
+//             let a = this.balans - amount;
 //             console.log(a);
 //         }else if(this.balans <= 0){
 //             console.log(this.balans + this.creditLimit);
