@@ -2,7 +2,7 @@
 //let a = +prompt("Ocenka");
 //console.log(a);
 //
-//if(a >= 0 & a<= 100)    
+//if(a >= 0 & a<= 100)
 //    if(a >= 90){
 //        console.log("A")
 //    } else if(a >= 80 & a <= 89){
@@ -70,15 +70,13 @@
 //
 //if(yash < 12 & yash > 0){
 //    console.log(a)
-//} if(yash >= 12 & yash <= 18){
+//}else if(yash >= 12 && yash <= 18){
 //    console.log(b);
-//} if(yash > 18){
+//}else  if(yash > 18){
 //    console.log(c);
-//} else{
+//}else{
 //    console.log("")
 //}
-
-
 
 // Task 5 /////////////////////
 
@@ -92,9 +90,9 @@
 //let f = "Cümə";
 //
 //
-//// Istirahet gunu 
+//// Istirahet gunu
 //let g = "Şənbə";
-//let h = "Bazar"; 
+//let h = "Bazar";
 //
 //if(a === b || a === b || a === c || a === d || a === e || a === f){
 //    console.log("İş günidi");
@@ -104,12 +102,11 @@
 //    console.log("Error")
 //}
 
-
 // Task 6 ////////////
 
 //let a = +prompt("Sürətini yazin")
 //
-//// 60-dan aşağ 
+//// 60-dan aşağ
 //let b = "Sürət çox yavaşdır.";
 //
 ////60-120
@@ -127,8 +124,6 @@
 //} else {
 //    console.log("Error");
 //}
-
-
 
 // Task 7 //////////////////////
 
@@ -159,7 +154,6 @@
 //} else {
 //    console.log("Error")
 //}
-
 
 // Task 8 /////////////////////
 
