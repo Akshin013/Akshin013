@@ -63,14 +63,14 @@
 //Task 8
 //1-dən 100-ə qədər olan tək ədədləri toplayın və nəticəni göstərin.
 
-//let sum = 0;
-//
-//for(let i = 0; i <= 100;  i++){
-//    if(i % 2 !== 0){
-//        
-//        sum += i
-//    }
-//
-//}
+// let sum = 0;
 
-//console.log(sum)
+// for(let i = 0; i <= 100;  i++){
+//     if(i % 2 !== 0){
+        
+//         sum += i
+//     }
+
+// }
+
+// console.log(sum);

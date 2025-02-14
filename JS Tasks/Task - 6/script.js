@@ -90,14 +90,16 @@
 //## Task 7:
 //### **Parametr kimi _length_ və _width_ dəyərlərini alan və həmin parametrlərə görə kvadratın sahəsini hesablayıb consola çıxaran `calculateRectangleArea()` funksiyası yazı**
 
-//function calculateRectangleArea(a, b) {
-//    let c = a * b;
-//
-//    console.log(c);
-//
-//}
-//
-//calculateRectangleArea()
+function calculateRectangleArea(a=0, b=0) {
+    if(isNaN(a)||isNaN(b)){
+    console.log("Error");
+    }else{
+        let c = a * b;
+        console.log(c);
+    }
+}
+
+calculateRectangleArea()
 
 //## Task 8:
 //### **Bir ədədi parametr kimi qəbul edən və onun cüt olub olmadığını yoxlayan `isEven()` adlı funksiya yazın. Rəqəmin cüt olub olmadığını göstərən bir mesajı konsolda göstərin.**
