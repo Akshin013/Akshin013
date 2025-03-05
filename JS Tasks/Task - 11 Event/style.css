@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#krug-div{
+    display: flex;
+    width: 40%;
+    /* background-color: rgb(9, 238, 238); */
+    margin-left: 30%;
+    margin-top: 10%;
+    justify-content: center;
+    gap: 20px;
+}
+
+.krug{
+    background-color: red;
+    border-radius: 50%;
+    width:  180px;
+    height: 180px;
+    border: solid 2px black;
+    cursor: pointer;
+}
+
+.krug1{
+    background-color: grey;
+}
+
+.krug2{
+    background-color: red;
+}
+
+.krug3{
+    background-color: blue;
+}
+
+.krug4{
+    background-color: yellow;
+}
+
+
+
+
+.grey{
+    background-color: grey;
+}
+
+.red{
+    background-color: red;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.yellow{
+    background-color: yellow;
+}

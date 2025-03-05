@@ -112,15 +112,15 @@
 //     },
 //     cixma(a = this.ed1, b = this.ed2){
 //         let c = a - b;
-//         console.log("Cixma" + ": " + c);
-//     },
-//     vurma(a = this.ed1, b = this.ed2){
-//         let c = a * b;
-//         console.log("Vurma" + ": " + c);
-//     },
-//     bolme(a = this.ed1, b = this.ed2){
-//         let c = a / b;
-//         console.log("Bolme" + ": " + c);
+    console.log("Cixma" + ": " + c);
+},
+vurma(a = this.ed1, b = this.ed2){
+    let c = a * b;
+    console.log("Vurma" + ": " + c);
+},
+bolme(a = this.ed1, b = this.ed2){
+    let c = a / b;
+    console.log("Bolme" + ": " + c);
 //     }
 // }
 
